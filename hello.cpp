@@ -1,9 +1,11 @@
-#include <iostream> // include API
-
+//File: hello.cpp
+#include <iostream>
 using namespace std;
 
-int main() // the main code portion of a C++ program
-{
-   cout << "Hello World" << endl;  //print Hello World on the screen 
-   return 0; // conventional
+int main(void) {
+  cout << "Hello, World\n";
+  cout << "Hello, Jenkins\n";
+
+  cout << "I have successfully built and run\n";
+  return 0;
 }
